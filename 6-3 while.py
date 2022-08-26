@@ -24,8 +24,9 @@
 customer = "토르"
 person = "Unknown"
 while person != customer:
-    print("{0}, 주문하신 커피가 나왔습니다.".format(customer))
     person = input("이름이 어떻게 되세요? ")
+    print("{0}, 주문하신 커피가 나왔습니다.".format(customer))
+    
 
 
 
